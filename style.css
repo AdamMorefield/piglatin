@@ -1,1 +1,68 @@
 /* Write your CSS Here. */
+* {
+    margin: 20px auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:bisque;
+    
+}
+
+
+#container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+    border: solid black;
+}
+
+#sentence {
+    display: flex;
+    background-color: white;
+    width: 20rem;
+    height: 7rem;
+    padding: 5px;
+}
+
+h1 {
+    background-color: white;
+}
+
+#translate {
+    background-color: white;
+    margin-top: 15px;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+}
+
+#translate:hover {
+    background-color: lightcyan;
+}
+
+#translated {
+    background-color: white;
+    border: solid black;
+    display: flex;
+    width: 750px;
+    height: 250px;
+    justify-content: left;
+    word-wrap: break-word;
+    padding: 5px;
+}
+
+.translated-sentence {
+    display: flex;
+    background-color: white;
+    word-wrap:normal;
+    word-wrap: break-word;
+}
+
+h3 {
+    background-color: white;
+    display: flex;
+    justify-content: left;
+}
